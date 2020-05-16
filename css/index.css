@@ -1,0 +1,79 @@
+body{
+    overflow-x:hidden;
+}
+#signs{
+  color:#fbfbfb;
+ text-decoration:none;
+ }
+#signs:hover{
+ color:#0c1331;
+}
+
+#my_button{
+  background-color:#ddd0d2 ;
+  color:#0c1331;
+  border-radius: 12px;
+   border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#my_button:hover{
+ background-color:#cbd0e0;
+  color:white ;
+}
+
+
+
+#memb_button{
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+    padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#memb_button:hover {
+  background-color: #e7e7e7;
+}
+
+
+#this_button{
+   background-color:#e2ddde; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 9px 22px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+#this_button:hover {
+  background-color: #008CBA;
+  color: white;
+    border-radius: 17px;
+
+}
+
+
+
+.flex-center, .text-center{
+  align-content:center;
+  text-align:center; 
+}
